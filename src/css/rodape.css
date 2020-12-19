@@ -1,0 +1,18 @@
+.rodape {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    background-color: #D6D6D6;
+
+    height: 100px;
+    width: 100%;
+}
+
+.rodape__titulo {
+    font-size: 1rem;
+    font-weight: 700;
+    font-family: var(--fonte-titulo);
+    color: #595959;
+
+    padding-right: 6%;
+}

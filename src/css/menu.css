@@ -1,0 +1,141 @@
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    background-color: #1F2020;
+
+    position: fixed;
+    width: 100%;
+}
+
+/* Seção de links do menu mobile */
+.menu__mobile {
+    height: 60px;
+}
+
+.menu__mobile__icone {
+    width: 40px;
+    padding: 10px 10px;
+    left: 0;
+}
+
+.menu__mobile__links {
+    background-color: #3F4141;
+    
+    text-align: center;
+    position: fixed;
+    top: 60px;
+    left: 0;
+
+    width: 100%;
+    height: 100vh;
+    padding-top: 100px;
+
+    transform: translateX(-100%);
+    transition: transform 200ms linear;
+}
+
+.menu_open {
+    transform: translateX(0);
+}
+
+.menu__mobile-item {
+    font-size: 1.5rem;
+    font-family: var(--fonte-titulo);
+    font-weight: 700;
+    color: #FFF;
+    line-height: 15px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    
+    margin: 50px 0;    
+}
+/*--------------------FIM--------------------*/
+
+.menu__logo {
+    width: 120px;
+}
+
+/* Seção de links do menu desktop */
+.menu__desktop_links {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column; 
+}
+
+.menu__desktop-item {
+    font-size: 1rem;
+    font-family: var(--fonte-titulo);
+    font-weight: 700;
+    color: #F4F4F4;
+
+    text-transform: uppercase;
+    letter-spacing: 2px;
+
+    padding: 10px 0;
+}
+
+.menu__desktop-item:hover {
+    color: #3F4141;
+    transition: color 200ms linear;
+}
+/*--------------------FIM--------------------*/
+
+.menu__sociais {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    margin-right: 10px;
+    width: 110px;  
+}
+
+.menu__sociais-item {
+    width: 30px;
+}
+
+@media screen and (max-width:1023px) {
+    main {
+        padding-top: 60px;
+    }
+    .menu__desktop {
+        display: none;
+    }
+}
+
+@media screen and (min-width:1024px) {
+    main {
+        padding-left: 180px;
+    }
+    .menu__mobile {
+        display: none;
+    }
+    .navbar {
+        flex-direction: column;
+
+        position: fixed;
+        top: 0;
+        left: 0;
+        
+        height: 100%;
+        width: 180px;
+    }
+    .menu__logo {
+        width: 150px;
+        margin-top: 30px;
+    }
+    .menu__sociais {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        flex-direction: column;
+
+        height: 150px;
+        margin-bottom: 30px;
+    }
+    .menu__sociais-item {
+        width: 40px;
+    }
+}

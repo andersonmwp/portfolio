@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Anderson Moura | Desenvolvedor Front-End</title>
+    <link href="src/img/gerais/tag-navigator.jpg" rel="shortcut icon">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&family=Poppins:wght@300;400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="src/css/reset.css">
+    <link rel="stylesheet" href="src/css/estilos.css">
+    <link rel="stylesheet" href="src/css/menu.css">
+    <link rel="stylesheet" href="src/css/abertura.css">
+    <link rel="stylesheet" href="src/css/sobre.css">
+    <link rel="stylesheet" href="src/css/rodape.css">
+</head>
+<body>
+    <header class="navbar">
+        <!-- Seção do menu mobile -->
+        <nav class="menu__mobile">
+            <img class="menu__mobile__icone menu_open btnMenu" src="src/icones/menu/menu.svg" alt="icone do menu">
+
+            <ul class="menu menu__mobile__links">
+                <li class="menu__mobile-item"><a href="#home">Home</a></li>
+                <li class="menu__mobile-item"><a href="#sobre">Sobre mim</a></li>
+                <li class="menu__mobile-item"><a href="#curriculo">Currículo</a></li>
+                <li class="menu__mobile-item"><a href="#portfolio">Portfólio</a></li>
+                <li class="menu__mobile-item"><a href="#contato">Contato</a></li>
+            </ul>
+        </nav>
+
+        <a href="index.html"><img class="menu__logo" src="src/img/gerais/logo.png" alt="logo do site escrito anderson moura"></a>
+
+        <!-- Seção do menu desktop -->
+        <nav class="menu__desktop">
+            <ul class="menu__desktop_links">
+                <li class="menu__desktop-item"><a href="#home">Home</a></li>
+                <li class="menu__desktop-item"><a href="#sobre">Sobre mim</a></li>
+                <li class="menu__desktop-item"><a href="#curriculo">Currículo</a></li>
+                <li class="menu__desktop-item"><a href="#portfolio">Portfólio</a></li>
+                <li class="menu__desktop-item"><a href="#contato">Contato</a></li>
+            </ul>
+        </nav>
+
+        <section class="menu__sociais">
+            <a href="https://github.com/andersonmwp" target="_blank"><img class="menu__sociais-item" src="src/icones/menu/github.svg" alt="icone do github"></a>
+            <a href="https://www.linkedin.com/in/andersonmwp/" target="_blank"><img class="menu__sociais-item" src="src/icones/menu/linkedin.svg" alt="icone do linkedin"></a>
+            <a href="https://api.whatsapp.com/send?phone=5511951771829" target="_blank"><img class="menu__sociais-item" src="src/icones/menu/whatsapp.svg" alt="icone do whatsapp"></a>
+        </section>
+    </header>
+
+    <main>
+        <!-- Seção de abertura da página -->
+        <section class="abertura">
+            <div class="abertura__container">
+                <h1 class="abertura__titulo">Anderson Moura<br>
+                    Desenvolvedor<br>
+                    <span class="abertura__fundo">Front-End</span>
+                </h1>
+
+                <figure class="abertura__imagem"></figure>
+            </div>
+
+            <a href="#sobre"><img class="abertura__botao" src="src/icones/gerais/arrow-down.svg" alt="icone de seta para baixo"></a>  
+        </section>
+
+        <!-- Seção sobre mim -->
+        <section id="sobre" class="sobre container">
+            <h2 class="sobre__titulo">Sobre mim</h2>
+
+            <div class="sobre__container">
+                <h2 class="sobre__apresentacao">Olá! Seja bem-vindo, me chamo <span class="sobre__fundo">Anderson</span>, e sou um desenvolvedor <span class="sobre__fundo">Front-End</span></h2>
+
+                <figure class="sobre_foto"></figure>
+            </div>
+
+            <p class="sobre__texto">Nascido em São Paulo com raízes pernambucanas, sou fã de games, filmes e séries, tudo que envolve a cultura Geek (claro que meu filme favorito é Star Wars) e também sou um completo apaixonado pelo mundo dos carros de performance!</p>
+
+            <p class="sobre__texto">Sempre gostei de brincar com meu lado criativo, desde adolecente eu fuçava no Photoshop criando imagens para eu e meus amigos, nas nossas partidas de jogos online. Foi então que a partir desse hobbie e por amar tecnologia, que eu decidi trilhar uma carreira no mundo da programação, e me encontrei no Front-End. O sentimento de “dar vida” á um projeto e vê-lo funcionando da maneira que eu imaginei não tem preço!</p>
+        </section>
+    </main>
+    <!-- Rodapé da página -->
+    <footer class="rodape">
+        <h3 class="rodape__titulo">Anderson Moura - 2020</h3>
+    </footer>
+
+    <script src="src/js/btnMenu.js"></script>
+</body>
+</html>
