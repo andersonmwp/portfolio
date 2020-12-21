@@ -3,7 +3,7 @@
     align-items: center;
     justify-content: center;
     flex-direction: column;
-
+    
     margin-top: 50px;
 }
 
@@ -66,7 +66,6 @@
     .sobre__container {
         align-items: flex-start;
         flex-direction: row;
-       
     }
     .sobre__titulo {
         margin-bottom: 100px;
@@ -82,4 +81,19 @@
         height: 300px;
         width: 250px;
     }
+    .sobre__texto {
+        text-align: start;
+        width: 85%;
+    }
+}
+
+@media screen and (min-width: 1920px) {
+    .sobre__container {
+        width: 90%;
+    }
+    .sobre_foto {
+        height: 400px;
+        width: 300px;
+    }
+  
 }
