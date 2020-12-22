@@ -91,6 +91,7 @@
     .sobre__texto {
         text-align: start;
         width: 85%;
+        max-width: 900px;
     }
 }
 
