@@ -1,6 +1,10 @@
 .abertura {
     background-color: #111212;
     height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
 }
 
 .background {
@@ -20,6 +24,8 @@
     padding-top: 10%;
     padding-left: 5%;
     line-height: 40px;
+
+    display: inline-block;
 }
 
 .abertura__subtitulo {
@@ -36,6 +42,30 @@
     
     padding: 5px 10px;
     margin-top: 5px;
+}
+
+.abertura__btn {
+    height: 70px;
+    width: 70px;
+
+    margin-bottom: 100px;
+}
+
+@media screen and (min-width: 1025px) {
+    .abertura {
+        align-items: flex-start;
+        justify-content: start;
+        flex-direction: row;
+    }
+    .background {
+        background-image: url(../img/gerais/background.png);
+        background-repeat: no-repeat;
+        background-size: 80%;
+        background-position: center;
+    }
+    .abertura__btn {
+        display: none;
+    }
 }
 
 @media screen and (min-width: 1920px) {
