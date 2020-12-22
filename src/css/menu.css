@@ -11,7 +11,7 @@
 
 /* Seção de links do menu mobile */
 .menu__mobile {
-    height: 60px;
+    max-height: 60px;
 }
 
 .menu__mobile__icone {
@@ -54,7 +54,7 @@
 /*--------------------FIM--------------------*/
 
 .menu__logo {
-    width: 120px;
+    width: 70px;
 }
 
 /* Seção de links do menu desktop */
