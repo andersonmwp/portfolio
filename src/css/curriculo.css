@@ -4,9 +4,10 @@
     justify-content: center;
     flex-direction: column;
 
-    background-color: #DCDCDC;
+    background-color: #3F4141;
 
     padding-top: 80px;
+    padding-bottom: 50px;
 }
 
 .curriculo__titulo {
