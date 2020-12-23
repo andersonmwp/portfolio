@@ -14,11 +14,11 @@ body {
 }
 
 .botao {
-    background-color: #3F4141;
-    border: 1px solid #3F4141;
+    background-color: #DCDCDC;
+    border: 1px solid #DCDCDC;
     border-radius: 0px !important;
 
-    color: #FFF;
+    color: #3F4141;
     text-transform: uppercase;
     font-size: 18px;
     font-weight: 700;
@@ -34,8 +34,8 @@ body {
 }
 
 .botao:hover {
-    background-color: #DCDCDC;
-    border-color: #DCDCDC;
-    color: #3F4141;
+    background-color: #1F2020;
+    border-color: #1F2020;
+    color: #f4f4f4;
     text-decoration: none;
 }
