@@ -34,7 +34,8 @@
     border-radius: 10px;
 
     margin: 20px 0;
-
+    height: 210px;
+    width: 350px;
     transition: transform 200ms linear;
 }
 
