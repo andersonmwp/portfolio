@@ -27,6 +27,7 @@
     padding-left: 5%;
     line-height: 40px;
 
+    align-self: flex-start;
     display: inline-block;
 }
 
