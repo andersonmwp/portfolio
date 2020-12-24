@@ -41,6 +41,12 @@
 
     height: 80px;
     width: 350px;
+
+    transition: background-color 200ms linear;
+}
+
+.contato__box:hover {
+    background-color: #cfcbcb;
 }
 
 .contato__box-titulo {
@@ -68,6 +74,12 @@
 
 .contato__imagem {
     width: 400px;
+}
+
+@media screen and (min-width: 768px) {
+    .contato__box {
+        width: 450px;
+    }
 }
 
 @media screen and (max-width: 1024px) {
