@@ -30,6 +30,7 @@
 
     height: auto;
     width: 100%;
+    box-sizing: content-box;
 }
 
 .sobre__apresentacao {
@@ -92,7 +93,7 @@
     .sobre__texto {
         text-align: start;
         width: 85%;
-        max-width: 900px;
+        width: 900px;
     }
 }
 
@@ -103,5 +104,9 @@
     .sobre_foto {
         height: 400px;
         width: 300px;
+    }
+
+    .sobre__texto {
+        width: 1050px;
     }
 }

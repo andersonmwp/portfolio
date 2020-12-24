@@ -63,7 +63,7 @@
 .curriculo__card-texto {
     font-size: 1.125rem;
     font-weight: 700;
-    color: #F4F4F4;
+    color: #DCDCDC;
     padding-left: 10px;
 }
 
@@ -78,6 +78,7 @@
 .curriculo__card__tecnologia {
     display: flex;
     align-items: center;
+    width: 150px;
 }
 
 .curriculo__card__tecnologia-icone {
@@ -97,6 +98,20 @@
 .centralizar {
     text-align: center;
     line-height: 25px;
+    margin-top: 20px;
+}
+
+.card__tecnologia__container {
+    display: flex;
+    align-items: flex-start;
+
+    flex-direction: row;
+    flex-wrap: wrap;
+    box-sizing: content-box;
+}
+
+.curriculo__card__tecnologia  {
+    margin: 10px;
 }
 
 @media screen and (min-width: 1025px) {
@@ -114,16 +129,8 @@
         line-height: 25px;
         padding: 0 40px;
     }
-    .card__tecnologia__container {
-        display: flex;
-        align-items: flex-start;
-    
-        flex-direction: row;
-        flex-wrap: wrap;
-        box-sizing: content-box;
-    }
+
     .curriculo__card__tecnologia  {
         margin: 10px 20px;
-        width: 150px;
     }
 }
