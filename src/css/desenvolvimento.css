@@ -3,7 +3,10 @@
     align-items: center;
     justify-content: center;
     flex-direction: column;
+
     height: 100vh;
+
+    background-color: #DCDCDC;
 }
 
 .desenvolvimento__imagem {
@@ -16,7 +19,20 @@
     font-weight: 700;
     font-family: var(--fonte-titulo);
     text-align: center;
+    
     padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.botao {
+    background-color: #1F2020;
+    border: 1px solid #1F2020;
+    color: #DCDCDC;
+}
+
+.botao:hover {
+    background-color: #3F4141;
+    border: 1px solid #3F4141;
 }
 
 @media screen and (min-width: 1025px) {
