@@ -5,12 +5,24 @@
 body {
     font-size: 16px;
     font-family: 'Poppins', sans-serif;
-    background-color: #FFF;
+    background-color: #3F4141;
 }
 
 .container {
     padding-left: 6%;
     padding-right: 6%;
+}
+
+.titulo {
+    font-size: 1.875rem;
+    font-weight: 700;
+    font-family: var(--fonte-titulo);
+
+    color: #F4F4F4;
+    background-color: #1F2020;
+
+    padding: 20px;
+    margin-bottom: 60px;
 }
 
 .botao {
