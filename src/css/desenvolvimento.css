@@ -1,0 +1,31 @@
+.desenvolvimento {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 100vh;
+}
+
+.desenvolvimento__imagem {
+    height: auto;
+    width: 300px;
+}
+
+.desenvolvimento__titulo {
+    font-size: 1.75rem;
+    font-weight: 700;
+    font-family: var(--fonte-titulo);
+    text-align: center;
+    padding-top: 20px;
+}
+
+@media screen and (min-width: 1025px) {
+    .desenvolvimento__imagem {
+        height: auto;
+        width: 400px;
+    }
+    .desenvolvimento__titulo {
+        font-size: 2rem;
+        padding-top: 10px;
+    }
+}
