@@ -1,7 +1,7 @@
 .desenvolvimento {
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: space-around;
     flex-direction: column;
 
     height: 100vh;
@@ -18,7 +18,9 @@
     font-size: 1.75rem;
     font-weight: 700;
     font-family: var(--fonte-titulo);
+    
     text-align: center;
+    text-transform: uppercase;
     
     padding-top: 20px;
     padding-bottom: 20px;
@@ -27,12 +29,14 @@
 .botao {
     background-color: #1F2020;
     border: 1px solid #1F2020;
-    color: #DCDCDC;
+    color: #FFF;
+
+    margin-bottom: 100px;
 }
 
 .botao:hover {
     background-color: #3F4141;
-    border: 1px solid #3F4141;
+    border: 1px solid #3F4141;;
 }
 
 @media screen and (min-width: 1025px) {
@@ -43,5 +47,8 @@
     .desenvolvimento__titulo {
         font-size: 2rem;
         padding-top: 10px;
+    }
+    .botao {
+        margin-bottom: 50px;
     }
 }
