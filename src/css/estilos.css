@@ -1,14 +1,27 @@
 :root {
     --fonte-titulo: 'Montserrat', sans-serif;
+    --cor-principal: #3F4141;
+    --cor-secundaria: #1F2020;
+    --cor-detalhes: #DCDCDC;
+    --cor-texto: #F4F4F4;
+    --cor-branca: #FFF;
+    --cor-preta: #111212;
 }
 
 body {
     font-size: 16px;
     font-family: 'Poppins', sans-serif;
-    background-color: #3F4141;
+    background-color: var(--cor-principal);
 }
 
 .container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+    padding-top: 80px;
+    padding-bottom: 50px;
     padding-left: 6%;
     padding-right: 6%;
 }
@@ -18,22 +31,22 @@ body {
     font-weight: 700;
     font-family: var(--fonte-titulo);
 
-    color: #F4F4F4;
-    background-color: #1F2020;
+    color: var(--cor-texto);
+    background-color: var(--cor-secundaria);
 
     padding: 20px;
     margin-bottom: 60px;
 }
 
 .botao {
-    background-color: #DCDCDC;
-    border: 1px solid #DCDCDC;
+    background-color: var(--cor-detalhes);
+    border: 1px solid var(--cor-detalhes);
     border-radius: 0px !important;
 
-    color: #3F4141;
-    text-transform: uppercase;
-    font-size: 18px;
+    font-size: 1.125rem;
     font-weight: 700;
+    color: var(--cor-principal);
+    text-transform: uppercase;
     line-height: 24px;
 
     display: block;
@@ -46,8 +59,8 @@ body {
 }
 
 .botao:hover {
-    background-color: #1F2020;
-    border-color: #1F2020;
-    color: #f4f4f4;
+    background-color: var(--cor-secundaria);
+    border-color: var(--cor-secundaria);
+    color: var(--cor-texto);
     text-decoration: none;
 }

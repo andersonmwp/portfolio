@@ -6,7 +6,7 @@
 
     height: 100vh;
 
-    background-color: #DCDCDC;
+    background-color: var(--cor-detalhes);
 }
 
 .desenvolvimento__imagem {
@@ -27,16 +27,16 @@
 }
 
 .botao {
-    background-color: #1F2020;
-    border: 1px solid #1F2020;
-    color: #FFF;
+    background-color: var(--cor-secundaria);
+    border: 1px solid var(--cor-secundaria);
+    color: var(--cor-branca);
 
     margin-bottom: 100px;
 }
 
 .botao:hover {
-    background-color: #3F4141;
-    border: 1px solid #3F4141;;
+    background-color: var(--cor-principal);
+    border: 1px solid var(--cor-principal);
 }
 
 @media screen and (min-width: 1025px) {

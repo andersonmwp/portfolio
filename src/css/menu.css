@@ -3,7 +3,7 @@
     align-items: center;
     justify-content: space-between;
 
-    background-color: #1F2020;
+    background-color: var(--cor-secundaria);
 
     position: fixed;
     width: 100%;
@@ -21,7 +21,7 @@
 }
 
 .menu__mobile__links {
-    background-color: #3F4141;
+    background-color: var(--cor-principal);
     
     text-align: center;
     position: fixed;
@@ -44,7 +44,7 @@
     font-size: 1.5rem;
     font-family: var(--fonte-titulo);
     font-weight: 700;
-    color: #FFF;
+    color: var(--cor-branca);
     line-height: 15px;
     letter-spacing: 2px;
     text-transform: uppercase;
@@ -69,7 +69,7 @@
     font-size: 1rem;
     font-family: var(--fonte-titulo);
     font-weight: 700;
-    color: #F4F4F4;
+    color: var(--cor-detalhes);
 
     text-transform: uppercase;
     letter-spacing: 2px;
@@ -78,7 +78,7 @@
 }
 
 .menu__desktop-item:hover {
-    color: #3F4141;
+    color: var(--cor-principal);
     transition: color 200ms linear;
 }
 /*--------------------FIM--------------------*/
