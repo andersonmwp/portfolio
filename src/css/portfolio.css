@@ -24,16 +24,6 @@
     transform: scale(1.05);
 }
 
-.portfolio__imagem[data-src] {
-	opacity: 0;
-	transform: translateX(-100%);
-}
-.portfolio__imagem[src] {
-	opacity: 1;
-	transform: translateX(0);
-	transition: .3s ease-in-out;
-}
-
 @media screen and (min-width: 768px) {
     .portfolio__container {
         flex-direction: row;
