@@ -20,7 +20,7 @@ body {
     justify-content: center;
     flex-direction: column;
 
-    padding-top: 80px;
+    padding-top: 50px;
     padding-bottom: 50px;
     padding-left: 6%;
     padding-right: 6%;
@@ -48,10 +48,11 @@ body {
     color: var(--cor-principal);
     text-transform: uppercase;
     line-height: 24px;
+    cursor: pointer;
 
     display: block;
     text-align: center;
-    margin-top: 2rem;
+    margin-bottom: 20px;
     padding: 10px 0;
     width: 300px;
     
