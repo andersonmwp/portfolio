@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Anderson Moura || Desenvolvedor Front-End</title>
+    <link href="src/img/gerais/tag-navegador.png" rel="shortcut icon">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&family=Poppins:wght@300;400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="src/css/reset.css">
+    <link rel="stylesheet" href="src/css/estilos.css">
+    <link rel="stylesheet" href="src/css/menu.css">
+    <link rel="stylesheet" href="src/css/projeto.css">
+    <link rel="stylesheet" href="src/css/rodape.css">
+</head>
+<body>
+    <header class="navbar">
+        <!-- Seção do menu mobile -->
+        <nav class="menu__mobile">
+            <img class="menu__mobile__icone menu_open btnMenu" src="src/icones/menu/menu.svg" alt="botão com icone do menu">
+
+            <ul class="menuNav menu menu__mobile__links">
+                <li class="menu__mobile-item"><a href="index.html">Home</a></li>
+                <li class="menu__mobile-item"><a href="#sobre">Sobre mim</a></li>
+                <li class="menu__mobile-item"><a href="#curriculo">Currículo</a></li>
+                <li class="menu__mobile-item"><a href="#portfolio">Portfólio</a></li>
+                <li class="menu__mobile-item"><a href="#contato">Contato</a></li>
+            </ul>
+        </nav>
+
+        <a href="index.html"><img class="menu__logo" src="src/img/gerais/logo.png" alt="logo do site escrito anderson moura"></a>
+
+        <!-- Seção do menu desktop -->
+        <nav class=" menu__desktop">
+            <ul class="menuNav menu__desktop_links">
+                <li class="menu__desktop-item"><a href="index.html">Home</a></li>
+                <li class="menu__desktop-item"><a href="#sobre">Sobre mim</a></li>
+                <li class="menu__desktop-item"><a href="#curriculo">Currículo</a></li>
+                <li class="menu__desktop-item"><a href="#portfolio">Portfólio</a></li>
+                <li class="menu__desktop-item"><a href="#contato">Contato</a></li>
+            </ul>
+        </nav>
+
+        <section class="menu__sociais">
+            <a href="https://github.com/andersonmwp" target="_blank"><img class="menu__sociais-item" src="src/icones/menu/github.svg" alt="icone do github"></a>
+            <a href="https://www.linkedin.com/in/andersonmwp/" target="_blank"><img class="menu__sociais-item" src="src/icones/menu/linkedin.svg" alt="icone do linkedin"></a>
+            <a href="https://api.whatsapp.com/send?phone=5511951771829" target="_blank"><img class="menu__sociais-item" src="src/icones/menu/whatsapp.svg" alt="icone do whatsapp"></a>
+        </section>
+    </header>
+
+    <main>
+        <!-- Seção de apresentação do projeto -->
+        <section class="projeto">
+            <div class="projeto__nome__container">
+                <img class="projeto__imagem" src="src/img/projetos/tlotk/card.png" alt="">
+    
+                <div class="projeto__container__titulo">
+                    <h1 class="projeto__titulo">The Legend of The Kinght</h1>
+    
+                    <p class="projeto__texto">The Legend of The Kinght é um jogo que criamos para o projeto integrador da faculdade, uma parte do meu grupo desenvolveu o jogo na plataforma Godot que foi exportado para html e colocado o link para ter acesso através do site. Eu fiquei responsável pelo desenvolvimento do site, desenvolvi praticamente com html e css puro, apenas utilizei Bootstrap para o menu responsivel (). A ideia é ser uma landing page para apresentar o jogo ao usuário, e também poder jogar. Ainda falta implementar o banco de dados para mostrar o ranking de pontos.</p>
+                </div>
+            </div>
+
+            <!-- Card de tecnologias utilizadas -->
+            <div class="projeto__informacoes">
+                <div class="projeto__informacoes-tecnologias">
+                    <h3 class="projeto_informacoes-titulo">Tecnologias e ferramentas utilizadas no desenvolvimento:</h3>
+
+                    <div class="projeto__informacoes-imagens">
+                        <img class="informacoes__imagem" src="src/icones/tecnologias/html.svg" alt="">
+                        <img class="informacoes__imagem" src="src/icones/tecnologias/css3.svg" alt="">
+                        <img class="informacoes__imagem" src="src/icones/tecnologias/bootstrap.svg" alt="">
+                        <img class="informacoes__imagem" src="src/icones/ferramentas/figma.svg" alt="">
+                    </div>
+                </div>
+
+                <!-- Card de links -->
+                <div class="projeto__informacoes__link">
+                    <a class="botao" href="https://andersonmwp.github.io/gameFacul/" target="_blank">Acesse o site</a>
+                    <a class="botao" href="https://github.com/andersonmwp/gameFacul" target="_blank">Repositório no Github</a>
+                    <a class="botao" href="https://www.figma.com/file/CmmRBCUNff4U01THsIlriT/The-Legend-of-The-Knight?node-id=0%3A1" target="_blank">Projeto no Figma</a>
+                </div>
+            </div>
+
+            <!-- Print do site inteiro -->
+            <img class="projeto__imagem__principal" src="src/img/projetos/tlotk/home-desktop.png" alt="">
+        </section>  
+    </main>
+
+    <!-- Rodapé da página -->
+    <footer class="rodape">
+        <h3 class="rodape__titulo">Anderson Moura - 2020</h3>
+    </footer>
+
+    <script src="src/js/btnMenu.js"></script>
+</body>
+</html>
