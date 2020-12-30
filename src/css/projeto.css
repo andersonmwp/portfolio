@@ -37,6 +37,7 @@
     font-size: 1.5rem;
     font-weight: 700;
     font-family: var(--fonte-titulo);
+    text-align: center;
 
     color: var(--cor-branca);
     background-color: var(--cor-secundaria);
