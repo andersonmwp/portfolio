@@ -167,6 +167,9 @@
     .projeto__imagem__principal {
         width: 800px;
     }
+    .imagem__mobile {
+        width: 350px;
+    }
     .botao {
         width: 350px;
     }
