@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Anderson Moura | Desenvolvedor Front-End</title>
+    <link href="src/img/gerais/tag-navegador.png" rel="shortcut icon">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&family=Poppins:wght@300;400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="src/css/reset.css">
+    <link rel="stylesheet" href="src/css/estilos.css">
+    <link rel="stylesheet" href="src/css/menu.css">
+    <link rel="stylesheet" href="src/css/projeto.css">
+    <link rel="stylesheet" href="src/css/rodape.css">
+</head>
+<body>
+    <header class="navbar">
+        <!-- Seção do menu mobile -->
+        <nav class="menu__mobile">
+            <img class="menu__mobile__icone menu_open btnMenu" src="src/icones/menu/menu.svg" alt="botão com icone do menu">
+
+            <ul class="menuNav menu menu__mobile__links">
+                <li class="menu__mobile-item"><a href="index.html">Home</a></li>
+                <li class="menu__mobile-item"><a href="index.html">Sobre mim</a></li>
+                <li class="menu__mobile-item"><a href="#curriculo">Currículo</a></li>
+                <li class="menu__mobile-item"><a href="#portfolio">Portfólio</a></li>
+                <li class="menu__mobile-item"><a href="#contato">Contato</a></li>
+            </ul>
+        </nav>
+
+        <a href="index.html"><img class="menu__logo" src="src/img/gerais/logo.png" alt="logo do site escrito anderson moura"></a>
+
+        <!-- Seção do menu desktop -->
+        <nav class=" menu__desktop">
+            <ul class="menuNav menu__desktop_links">
+                <li class="menu__desktop-item"><a href="index.html">Home</a></li>
+                <li class="menu__desktop-item"><a href="#sobre">Sobre mim</a></li>
+                <li class="menu__desktop-item"><a href="#curriculo">Currículo</a></li>
+                <li class="menu__desktop-item"><a href="#portfolio">Portfólio</a></li>
+                <li class="menu__desktop-item"><a href="#contato">Contato</a></li>
+            </ul>
+        </nav>
+
+        <section class="menu__sociais">
+            <a href="https://github.com/andersonmwp" target="_blank"><img class="menu__sociais-item" src="src/icones/menu/github.svg" alt="icone do github"></a>
+            <a href="https://www.linkedin.com/in/andersonmwp/" target="_blank"><img class="menu__sociais-item" src="src/icones/menu/linkedin.svg" alt="icone do linkedin"></a>
+            <a href="https://api.whatsapp.com/send?phone=5511951771829" target="_blank"><img class="menu__sociais-item" src="src/icones/menu/whatsapp.svg" alt="icone do whatsapp"></a>
+        </section>
+    </header>
+
+    <main>
+        <!-- Seção de apresentação do projeto -->
+        <section class="projeto">
+            <article class="projeto__nome__container">
+                <img class="projeto__imagem" src="src/img/projetos/moveit/card.png" alt="card de ilustração do projeto, tem um print da página inicial em um notebook e um celular">
+    
+                <div class="projeto__container__titulo">
+                    <h1 class="projeto__titulo">move.it</h1>
+    
+                    <p class="projeto__texto">Participei da quarta edição da Next Level Week fornecida pela Rocketseat, neste evento criamos uma aplicação em React com Nextjs. Trata-se de um timer pomodoro que a cada ciclo que você finalizar, irá aparecer um desafio, que ao concluir cada desafio, você vai ganhando experiência e subindo de level.</p><br>
+                    <p class="projeto__texto">Os desafios são bem simples, são exercícios de alongamentos, que a cada 25 minutos focado estudando/trabalhando, você realiza um desses exercícios para relaxar o corpo e conseguir manter-se focado!</p>
+                </div>
+            </article>
+
+            <!-- Card de tecnologias utilizadas -->
+            <div class="projeto__informacoes">
+                <div class="projeto__informacoes-tecnologias">
+                    <h3 class="projeto_informacoes-titulo">Tecnologias e ferramentas utilizadas no desenvolvimento:</h3>
+
+                    <figure class="projeto__informacoes-imagens">
+                        <img class="informacoes__imagem" src="src/icones/tecnologias/react.svg" alt="icone da tecnologia react">
+                        <img class="informacoes__imagem" src="src/icones/tecnologias/typescript.svg" alt="icone da tecnologia typescript">
+                        <img class="informacoes__imagem" src="src/icones/tecnologias/html.svg" alt="icone da tecnologia html">
+                        <img class="informacoes__imagem" src="src/icones/tecnologias/css3.svg" alt="icone da tecnologia css">
+                    </figure>
+                </div>
+
+                <!-- Card de links -->
+                <nav class="projeto__informacoes__link">
+                    <a class="botao" href="https://moveit-andersonmwp.vercel.app/" target="_blank">Acesse o site</a>
+                    <a class="botao" href="https://github.com/andersonmwp/NWL4" target="_blank">Repositório no Github</a>
+                    <a class="botao" href="https://www.figma.com/file/rxc6sx0FJiUnoVAsjpOieb/Move.it-1.0-(Copy)" target="_blank">Projeto no Figma</a>
+                </nav>
+            </div>
+
+            <!-- Print do site inteiro -->
+            <figure class="imagem__container">
+                <img class="projeto__imagem__principal" src="src/img/projetos/moveit/moveit-img.png" alt="Print do site da página principal">
+                <img class="projeto__imagem__principal" src="src/img/projetos/moveit/moveit-gif-01.gif" alt="Gif demonstrando como é a contagem regressiva do contador">
+                <img class="projeto__imagem__principal" src="src/img/projetos/moveit/moveit-gif-02.gif" alt="Gif demonstrando funciona o desafio e ganhos de níveis">
+                <img class="projeto__imagem__principal" src="src/img/projetos/moveit/moveit-gif-03.gif" alt="Gif demonstrando os efeitos de hovers">
+            </figure>
+        </section>  
+    </main>
+
+    <!-- Rodapé da página -->
+    <footer class="rodape">
+        <h3 class="rodape__titulo">Anderson Moura - 2020</h3>
+    </footer>
+
+    <script src="src/js/btnMenu.js"></script>
+</body>
+</html>
