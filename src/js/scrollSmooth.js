@@ -29,3 +29,19 @@ function scrollInit(event){
 }
 
 linkAbertura.addEventListener('click', scrollInit);
+
+const sections = document.querySelectorAll('.js-scroll');
+const windowHalf = innerHeight * 0.75;
+
+function animateScroll() {
+	sections.forEach((section) => {
+		const sectionTop = section.getBoundingClientRect().top - windowHalf;
+		if(sectionTop < 0) {
+			section.classList.add('active');
+		} else {
+			section.classList.remove('active');
+		}
+	});
+}
+
+window.addEventListener('scroll', animateScroll);

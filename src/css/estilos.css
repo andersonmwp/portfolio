@@ -69,3 +69,15 @@ body {
 .botao:active {
     transform: scale(0.95);
 }
+
+/* Animação scroll do window */
+.js-scroll {
+    opacity: 0;
+    transition: .3s;
+    transform: translate3d(-30px, 0, 0);
+}
+
+.js-scroll.active {
+    opacity: 1;
+    transform: translate3d(0, 0, 0);
+}
